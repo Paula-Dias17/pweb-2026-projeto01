@@ -3,19 +3,31 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Pokedex</title>
+    <title>Pokédex</title>
     <link rel="stylesheet" href="{% static 'app/css/bootstrap.min.css' %}">
     <link rel="stylesheet" href="{% static 'app/css/style.css' %}?v=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <section class="navbar navbar-expand-lg">
-        <div class="navigation__content">
+    <section class="navbar navbar-expand-lg fixed-top p-4 m-3 navbar-dark">
+        <div class="navigation__content container-fluid">
             <ul class="navbar-nav">
-                <li class="item">
-                    <a href="index.html" class="nav-link">
+                <li class="item m-3">
+                    <a href='/inicio' class="nav-link">
                         <span class="fa-house fa-solid"></span>
                         <span>Início</span>
+                    </a>
+                </li>
+                <li class="item  m-3">
+                    <a href="{% static 'elenco.html' %}" class="nav-link">
+                        <span class="fa-house fa-solid"></span>
+                        <span>elenco</span>
+                    </a>
+                </li>
+                <li class="item  m-3">
+                    <a href="{% static 'sobre.html' %}" class="nav-link">
+                        <span class="fa-house fa-solid"></span>
+                        <span>sobre</span>
                     </a>
                 </li>
             </ul>
