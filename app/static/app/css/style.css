@@ -27,9 +27,15 @@ body{
 
 .active{
     background-color: var(--laranja);
-    border-radius: 5rem;
 }
 
-.navigation__content{
-    align-items: center;
+.navigation{ 
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
+
+.navigation__content ul li div{
+    padding: 8px 16px;
+}
+
