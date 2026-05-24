@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root {
-    --vermelho: #EE3300;
-    --amarelo: #E6BC2F;
+    /* --vermelho: #EE3300;
+    --laranja: #FF7A2F;
+    --amarelo: #f49a40; */
+    --amarelo: #FFCC00;
+    --vermelho: #D62828;
     --verde: #4DAD5B;
     --azul: #3e86d8;
+    --blue: #2A4FB5;
     --azul-claro: #8FD8FF;
-    --laranja: #FF7A2F;
-    --amarelo: #FFD54D;
     --azul-snorlax: #3B5B6F;
 }
+
 body{
     font-family: 'Nunito Sans', Arial, sans-serif !important;
     letter-spacing: 0.4px;
@@ -27,13 +30,17 @@ body{
 }
 
 .active{
-    background-color: var(--azul);
     border-radius: 2px;
 }
 
 .active span{
+    /* color: var(--blue); */
     font-weight: bold;
 }
+
+/* .navbar{
+    background-color: var(--vermelho);
+} */
 
 /*  */
 
@@ -46,10 +53,8 @@ body{
     position: absolute;
     left: 0;
     bottom: -5px;
-
     width: 0%;
     height: 2px;
-
     background-color: var(--azul-claro);
     transition: 0.3s;
 }
@@ -76,8 +81,4 @@ body{
 
 .rodape{
     height: 4rem;
-}
-
-footer{
-    background-color: var(--azul-snorlax);
 }
