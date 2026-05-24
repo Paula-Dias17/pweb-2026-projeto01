@@ -36,11 +36,16 @@
             </div>
         </section>
     </nav>
-    
-    {% block content %}
-        <!-- <img src="{% static 'app/imgs/charizard.png' %}" alt="charizard"> -->
-    {% endblock %}
 
+    <section class="py-5">
+        <div class="container my-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <p class="mb-0">{% block content %}{% endblock content %}</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer class="fixed-bottom">
         <div class="container p-3">
