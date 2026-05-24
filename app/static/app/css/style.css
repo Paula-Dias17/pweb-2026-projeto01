@@ -1,22 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root {
-    --pink: #FF9CCB;
-    --roxo: #7B4FA3;
     --vermelho: #EE3300;
     --amarelo: #E6BC2F;
     --verde: #4DAD5B;
-    --azul: #5DA9FF;
+    --azul: #3e86d8;
     --azul-claro: #8FD8FF;
     --laranja: #FF7A2F;
     --amarelo: #FFD54D;
-    --bg-main: #3B5B6F;
+    --azul-snorlax: #3B5B6F;
 }
 body{
     font-family: 'Nunito Sans', Arial, sans-serif !important;
     letter-spacing: 0.4px;
     line-height: 1.2; 
-    background-color: var(--bg-main)
+    background-color: var(--azul-snorlax);
 }
 
 ::-webkit-scrollbar{
@@ -29,8 +27,12 @@ body{
 }
 
 .active{
-    background-color: gray;
+    background-color: var(--azul);
     border-radius: 2px;
+}
+
+.active span{
+    font-weight: bold;
 }
 
 /*  */
@@ -74,4 +76,8 @@ body{
 
 .rodape{
     height: 4rem;
+}
+
+footer{
+    background-color: var(--azul-snorlax);
 }
