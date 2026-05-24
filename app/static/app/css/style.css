@@ -3,6 +3,9 @@
 :root {
     --pink: #FF9CCB;
     --roxo: #7B4FA3;
+    --vermelho: #EE3300;
+    --amarelo: #E6BC2F;
+    --verde: #4DAD5B;
     --azul: #5DA9FF;
     --azul-claro: #8FD8FF;
     --laranja: #FF7A2F;
@@ -26,8 +29,34 @@ body{
 }
 
 .active{
-    background-color: var(--laranja);
+    background-color: gray;
+    border-radius: 2px;
 }
+
+/*  */
+
+.nav-link{
+    position: relative;
+}
+
+.nav-link::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+
+    width: 0%;
+    height: 2px;
+
+    background-color: var(--azul-claro);
+    transition: 0.3s;
+}
+
+.nav-link:hover::after{
+    width: 100%;
+}
+
+/*  */
 
 .navigation{ 
     text-decoration: none;
@@ -39,3 +68,10 @@ body{
     padding: 8px 16px;
 }
 
+.icon{
+    height: 2rem;
+}
+
+.rodape{
+    height: 4rem;
+}
