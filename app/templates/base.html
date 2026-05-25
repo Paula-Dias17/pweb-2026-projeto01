@@ -16,19 +16,19 @@
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav">
                     <li class="item m-3">
-                        <a href='inicio' class="nav-link">
+                        <a href="{% url 'inicio' %}" class="nav-link">
                             <img src="{% static 'app/imgs/icons/inicio.png' %}" class="icon">
                             <span class="title">Página Inicial</span>
                         </a>
                     </li>
                     <li class="item  m-3">
-                        <a href="elenco" class="nav-link">
+                        <a href="{% url 'elenco' %}" class="nav-link">
                             <img src="{% static 'app/imgs/icons/pokebola-rosa.png' %}" class="icon">
                             <span class="title">Pokédex</span>
                         </a>
                     </li>
                     <li class="item  m-3">
-                        <a href="sobre" class="nav-link">
+                        <a href="{% url 'sobre' %}" class="nav-link">
                             <img src="{% static 'app/imgs/icons/informacoes.png' %}" class="icon">
                             <span class="title">Informações</span>
                         </a>
