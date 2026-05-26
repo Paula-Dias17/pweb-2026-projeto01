@@ -1,12 +1,17 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block title %}
+    {{ block.super }} Elenco
+{% endblock title %}
+
 {% block content %}
 <section class="container">
     <nav class="row">
+        <!-- for entra aqui dps dos dados nas views -->
         <div class="col-md-4 cards">
             <div class="card">
-                <img class="card-img card-img-top obras" src="% static '' %">
+                <img class="card-img card-img-top obras" src="{% static 'app/imgs/charizard.png' %}">
                 <div class="card-body text-center">
                     <h4 class="card-title"></h4>
                     <p class="card-text">
@@ -14,9 +19,9 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card h-100">
-                <img class="card-img card-img-top obras" src="% static '' %">
+        <div class="col-md-4 cards">
+            <div class="card">
+                <img class="card-img card-img-top obras" src="{% static 'app/imgs/charizard.png' %}">
                 <div class="card-body text-center">
                     <h4 class="card-title"></h4>
                     <p class="card-text">
@@ -24,41 +29,9 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card h-100">
-                <img class="card-img card-img-top obras" src="% static '' %">
-                <div class="card-body text-center">
-                    <h4 class="card-title"></h4>
-                    <p class="card-text">
-                    </p>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <nav class="row">
-        <div class="col-md-4">
-            <div class="card h-100">
-                <img class="card-img card-img-top obras" src="% static '' %">
-                <div class="card-body text-center">
-                    <h4 class="card-title"></h4>
-                    <p class="card-text">
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card h-100">
-                <img class="card-img card-img-top obras" src="% static '' %">
-                <div class="card-body text-center">
-                    <h4 class="card-title"></h4>
-                    <p class="card-text">
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card h-100">
-                <img class="card-img card-img-top obras" src="% static '' %">
+        <div class="col-md-4 cards">
+            <div class="card">
+                <img class="card-img card-img-top obras" src="{% static 'app/imgs/charizard.png' %}">
                 <div class="card-body text-center">
                     <h4 class="card-title"></h4>
                     <p class="card-text">
@@ -68,9 +41,9 @@
         </div>
     </nav>
     <nav class="row">
-        <div class="col-md-4">
-            <div class="card h-100">
-                <img class="card-img card-img-top obras" src="% static '' %">
+        <div class="col-md-4 cards">
+            <div class="card">
+                <img class="card-img card-img-top obras" src="{% static 'app/imgs/charizard.png' %}">
                 <div class="card-body text-center">
                     <h4 class="card-title"></h4>
                     <p class="card-text">
@@ -78,9 +51,9 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card h-100">
-                <img class="card-img card-img-top obras" src="% static '' %">
+        <div class="col-md-4  cards">
+            <div class="card">
+                <img class="card-img card-img-top obras" src="{% static 'app/imgs/charizard.png' %}">
                 <div class="card-body text-center">
                     <h4 class="card-title"></h4>
                     <p class="card-text">
@@ -88,9 +61,9 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card h-100">
-                <img class="card-img card-img-top obras" src="% static '' %">
+        <div class="col-md-4 cards">
+            <div class="card">
+                <img class="card-img card-img-top obras" src="{% static 'app/imgs/charizard.png' %}">
                 <div class="card-body text-center">
                     <h4 class="card-title"></h4>
                     <p class="card-text">
@@ -100,9 +73,9 @@
         </div>
     </nav>
     <nav class="row">
-        <div class="col-md-4">
-            <div class="card h-100">
-                <img class="card-img card-img-top obras" src="% static '' %">
+        <div class="col-md-4  cards">
+            <div class="card">
+                <img class="card-img card-img-top obras" src="{% static 'app/imgs/charizard.png' %}">
                 <div class="card-body text-center">
                     <h4 class="card-title"></h4>
                     <p class="card-text">
@@ -110,9 +83,9 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card h-100">
-                <img class="card-img card-img-top obras" src="% static '' %">
+        <div class="col-md-4 cards">
+            <div class="card">
+                <img class="card-img card-img-top obras" src="{% static 'app/imgs/charizard.png' %}">
                 <div class="card-body text-center">
                     <h4 class="card-title"></h4>
                     <p class="card-text">
@@ -120,9 +93,41 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card h-100">
-                <img class="card-img card-img-top obras" src="% static '' %">
+        <div class="col-md-4 cards">
+            <div class="card">
+                <img class="card-img card-img-top obras" src="{% static 'app/imgs/charizard.png' %}">
+                <div class="card-body text-center">
+                    <h4 class="card-title"></h4>
+                    <p class="card-text">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="row">
+        <div class="col-md-4 cards">
+            <div class="card">
+                <img class="card-img card-img-top obras" src="{% static 'app/imgs/charizard.png' %}">
+                <div class="card-body text-center">
+                    <h4 class="card-title"></h4>
+                    <p class="card-text">
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 cards">
+            <div class="card">
+                <img class="card-img card-img-top obras" src="{% static 'app/imgs/charizard.png' %}">
+                <div class="card-body text-center">
+                    <h4 class="card-title"></h4>
+                    <p class="card-text">
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 cards">
+            <div class="card">
+                <img class="card-img card-img-top obras" src="{% static 'app/imgs/charizard.png' %}">
                 <div class="card-body text-center">
                     <h4 class="card-title"></h4>
                     <p class="card-text">
