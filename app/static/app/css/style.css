@@ -25,7 +25,7 @@ body{
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: var(--amarelo);
+    background-color: var(--azul-claro);
     border-radius: 15px;
 }
 
