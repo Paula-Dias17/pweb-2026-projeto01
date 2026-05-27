@@ -16,9 +16,63 @@ def elenco(request):
             "imagem": "/static/app/imgs/charizard.png"
         },
         {
-            "nome": "Charizard",
+            "nome": "Gardevoir",
             "idade": 0,
-            "tipo": "fogo",
+            "tipo": "psiquico/fada",
+            "imagem": "/static/app/imgs/charizard.png"
+        },
+        {
+            "nome": "Jigglypuff",
+            "idade": 0,
+            "tipo": "normal/fada",
+            "imagem": "/static/app/imgs/charizard.png"
+        },
+        {
+            "nome": "Liepard",
+            "idade": 0,
+            "tipo": "sombrio",
+            "imagem": "/static/app/imgs/charizard.png"
+        },
+        {
+            "nome": "Mew",
+            "idade": 0,
+            "tipo": "psiquico",
+            "imagem": "/static/app/imgs/charizard.png"
+        },
+        {
+            "nome": "Mimikyu",
+            "idade": 0,
+            "tipo": "fantasma/fada",
+            "imagem": "/static/app/imgs/charizard.png"
+        },
+        {
+            "nome": "psyduck",
+            "idade": 0,
+            "tipo": "agua",
+            "imagem": "/static/app/imgs/charizard.png"
+        },
+        {
+            "nome": "Piplup",
+            "idade": 0,
+            "tipo": "agua",
+            "imagem": "/static/app/imgs/charizard.png"
+        },
+        {
+            "nome": "Snorlax",
+            "idade": 0,
+            "tipo": "normal",
+            "imagem": "/static/app/imgs/charizard.png"
+        },
+        {
+            "nome": "Sylveon",
+            "idade": 0,
+            "tipo": "fada",
+            "imagem": "/static/app/imgs/charizard.png"
+        },
+        {
+            "nome": "Togepi",
+            "idade": 0,
+            "tipo": "normal",
             "imagem": "/static/app/imgs/charizard.png"
         }
     ]
