@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root {
-    /* --vermelho: #EE3300;
-    --laranja: #FF7A2F;
-    --amarelo: #f49a40; */
-    --amarelo: #FFCC00;
-    --vermelho: #D62828;
-    --verde: #4DAD5B;
-    --azul: #3e86d8;
-    --blue: #2A4FB5;
+    --roxo-principal: #b271e8;
+    --roxo-escuro: #6D2FA3;
+    --rosa-destaque: #bc4b8f;
+    --rosa-principal: rgb(216, 109, 198);
+    --rosa:  rgb(187, 65, 167);
+    --pink: #f9b1ff;
     --azul-claro: #8FD8FF;
     --azul-snorlax: #3B5B6F;
 }
@@ -17,7 +15,7 @@ body{
     font-family: 'Nunito Sans', Arial, sans-serif !important;
     letter-spacing: 0.4px;
     line-height: 1.2; 
-    background-color: var(--azul-snorlax);
+    background-color: var(--rosa);
 }
 
 ::-webkit-scrollbar{
@@ -25,7 +23,7 @@ body{
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: var(--azul-claro);
+    background-color: var(--roxo-principal);
     border-radius: 15px;
 }
 
@@ -51,7 +49,7 @@ body{
     bottom: -5px;
     width: 0%;
     height: 2px;
-    background-color: var(--azul-claro);
+    background-color: var(--pink);
     transition: 0.3s;
 }
 
@@ -81,4 +79,17 @@ body{
 
 .cards{
     margin-bottom: 5rem;
+}
+
+.bg{
+    background-color: var(--pink);
+    /* cor temporaria do conteudo */
+}
+
+.jiggly_inicio{
+    max-width: 5rem;
+}
+
+footer{
+    background-color: var(--rosa); 
 }
