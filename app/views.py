@@ -1,8 +1,7 @@
 from django.shortcuts import render
 
 def index(request):
-    dados_usuario = {"nome": "Michael Douglas", "idade": 23}
-    return render(request, "index.html", dados_usuario)
+    return render(request, "index.html")
 
 def sobre(request):
     return render(request, "sobre.html")
@@ -11,69 +10,70 @@ def elenco(request):
     lista_pokemons = [
         {
             "nome": "Charizard",
-            "idade": 0,
+            "num": 0,
             "tipo": "fogo",
+            "sobre": "",
             "imagem": "/static/app/imgs/charizard.png"
         },
         {
             "nome": "Gardevoir",
-            "idade": 0,
-            "tipo": "psiquico/fada",
-            "imagem": "/static/app/imgs/charizard.png"
+            "num": 0,
+            "tipo": "Psiquico/Fada",
+            "imagem": "/static/app/imgs/gardevoir.png"
         },
         {
             "nome": "Jigglypuff",
-            "idade": 0,
-            "tipo": "normal/fada",
-            "imagem": "/static/app/imgs/charizard.png"
+            "num": 0,
+            "tipo": "Normal/Fada",
+            "imagem": "/static/app/imgs/jigglypuff.png"
         },
         {
             "nome": "Liepard",
-            "idade": 0,
-            "tipo": "sombrio",
-            "imagem": "/static/app/imgs/charizard.png"
+            "num": 0,
+            "tipo": "Sombrioo",
+            "imagem": "/static/app/imgs/lierpard.png"
         },
         {
             "nome": "Mew",
-            "idade": 0,
-            "tipo": "psiquico",
-            "imagem": "/static/app/imgs/charizard.png"
+            "num": 0,
+            "tipo": "Psiquico",
+            "imagem": "/static/app/imgs/mew.png"
         },
         {
             "nome": "Mimikyu",
-            "idade": 0,
-            "tipo": "fantasma/fada",
-            "imagem": "/static/app/imgs/charizard.png"
+            "num": 0,
+            "tipo": "Fantasma/Fada",
+            "imagem": "/static/app/imgs/mimikyu.png"
         },
         {
             "nome": "psyduck",
-            "idade": 0,
-            "tipo": "agua",
-            "imagem": "/static/app/imgs/charizard.png"
+            "num": 0,
+            "tipo": "Água",
+            "imagem": "/static/app/imgs/psyduck.png"
         },
         {
             "nome": "Piplup",
-            "idade": 0,
-            "tipo": "agua",
-            "imagem": "/static/app/imgs/charizard.png"
+            "num": 0,
+            "tipo": "Água",
+            "imagem": "/static/app/imgs/piplup.png"
         },
         {
             "nome": "Snorlax",
-            "idade": 0,
-            "tipo": "normal",
-            "imagem": "/static/app/imgs/charizard.png"
+            "num": 0,
+            "tipo": "Normal",
+            "imagem": "/static/app/imgs/snorlax.png"
         },
         {
             "nome": "Sylveon",
-            "idade": 0,
-            "tipo": "fada",
-            "imagem": "/static/app/imgs/charizard.png"
+            "num": 0,
+            "tipo": "Fada",
+            "imagem": "/static/app/imgs/sylveon.png"
         },
         {
             "nome": "Togepi",
-            "idade": 0,
-            "tipo": "normal",
-            "imagem": "/static/app/imgs/charizard.png"
+            "num": 0,
+            "tipo": "Normal",
+            "imagem": "/static/app/imgs/togepi.png"
         }
     ]
         
