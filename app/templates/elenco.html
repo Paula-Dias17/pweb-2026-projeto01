@@ -9,9 +9,10 @@
         <!-- <div class="col-lg-6"></div> dps ver se assim tava melhor-->
         <div class="col-md-4 cards">
             <div class="card">
-                <img class="card-img card-img-top obras" src="{{ pokemon.imagem }}">
+                <img class="border-0 text-center pokedex" src="{% static 'app/imgs/customs/pokemon.jpg' %}">
+                <img class="card-img card-img-top card-img-overlay" src="{{ pokemon.imagem }}">
                 <div class="card-body text-center">
-                    <h4 class="card-title ">{{ pokemon.nome }}</h4>
+                    <h4 class="card-title">{{ pokemon.nome }}</h4>
                     <p class="card-text">
                         Tipo: {{ pokemon.tipo }}
                         Número: {{ pokemon.num }}

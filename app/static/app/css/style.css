@@ -91,6 +91,10 @@ body{
     background-color: var(--rosa);
 }
 
+.pokedex{
+    max-width: 25rem;
+}
+
 .jiggly_inicio{
     max-width: 5rem;
 }
