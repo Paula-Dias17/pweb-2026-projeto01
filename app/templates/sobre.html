@@ -24,7 +24,7 @@
             padding: 0;
             text-align: left;
         }
-        li {
+        .card li {
             padding: 8px 0;
             border-bottom: 1px solid #eee;
         }
@@ -36,10 +36,13 @@
             font-size: 0.85em;
             float: right;
         }
+        
     </style>
 <body>
 
     <div class="card card-red">
+
+        <img class="border-0 text-center pokedex" src="{% static 'app/imgs/treinador.png' %}">
 
         <h2>Bruno</h2>
         <p class="regiao">Região: Bom Jesus</p>
@@ -52,6 +55,7 @@
     </div>
 
     <div class="card card-blue">
+        <img class="border-0 text-center pokedex" src="{% static 'app/imgs/treinadora.png' %}">
         <h2>Paula</h2>
         <p class="regiao">Região: Boa Saude</p>
         <h3>Equipe Principal:</h3>
