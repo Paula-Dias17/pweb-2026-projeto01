@@ -2,42 +2,41 @@
 {% load static %}
 
 {% block content %}
+<style>
+    .card {
+        background: #f9b1ff;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        padding: 20px;
+        width: 280px;
+        text-align: center;
+        border-top: 5px solid #ffcb05;
+    }
+    .card-red { border-top-color: #ff1f1f; }
+    .card-blue { border-top-color: #1f8fff; }
+    
+    h2 { margin-bottom: 5px; color: #222; }
+    .regiao { font-style: italic; color: #666; margin-bottom: 15px; }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        text-align: left;
+    }
+    .card li {
+        padding: 8px 0;
+        border-bottom: 1px solid #eee;
+    }
+    .card li:last-child { border-bottom: none; }
+    .badge {
+        background: #ff00dd;
+        padding: 2px 8px;
+        border-radius: 12px;
+        font-size: 0.85em;
+        float: right;
+    }
+</style>
 
-    <style>
-        .card {
-            background: #f9b1ff;
-            border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            padding: 20px;
-            width: 280px;
-            text-align: center;
-            border-top: 5px solid #ffcb05;
-        }
-        .card-red { border-top-color: #ff1f1f; }
-        .card-blue { border-top-color: #1f8fff; }
-        
-        h2 { margin-bottom: 5px; color: #222; }
-        .regiao { font-style: italic; color: #666; margin-bottom: 15px; }
-        
-        ul {
-            list-style: none;
-            padding: 0;
-            text-align: left;
-        }
-        li {
-            padding: 8px 0;
-            border-bottom: 1px solid #eee;
-        }
-        li:last-child { border-bottom: none; }
-        .badge {
-            background: #ff00dd;
-            padding: 2px 8px;
-            border-radius: 12px;
-            font-size: 0.85em;
-            float: right;
-        }
-    </style>
-</head>
 <body>
 
     <div class="card card-red">
