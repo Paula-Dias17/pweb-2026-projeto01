@@ -13,6 +13,7 @@
             text-align: center;
             border-top: 5px solid #ffcb05;
         }
+
         .card-red { border-top-color: #ff1f1f; }
         .card-blue { border-top-color: #1f8fff; }
         
@@ -42,7 +43,8 @@
 
     <div class="card card-red">
 
-        <img class="border-0 text-center pokedex" src="{% static 'app/imgs/treinador.png' %}">
+        <img class="border-0 text-center pokedex" src="{% static 'app/imgs/customs/pokemon.jpg' %}">
+        <img class="card-img card-img-top card-img-overlay" src="{% static 'app/imgs/treinador.png' %}">
 
         <h2>Bruno</h2>
         <p class="regiao">Região: Bom Jesus</p>
@@ -55,7 +57,9 @@
     </div>
 
     <div class="card card-blue">
-        <img class="border-0 text-center pokedex" src="{% static 'app/imgs/treinadora.png' %}">
+        
+        <img class="border-0 text-center pokedex" src="{% static 'app/imgs/customs/pokemon.jpg' %}">
+        <img class="card-img card-img-top card-img-overlay" src="{% static 'app/imgs/treinadora.png' %}">
         <h2>Paula</h2>
         <p class="regiao">Região: Boa Saude</p>
         <h3>Equipe Principal:</h3>
